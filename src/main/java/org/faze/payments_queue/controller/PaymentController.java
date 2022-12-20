@@ -39,7 +39,7 @@ public class PaymentController {
 
     Long newPaymentId = paymentService.add(paymentDto);
 
-    return ResponseEntity.ok("Тразакция с id = " + newPaymentId + " успешно обработана.");
+    return ResponseEntity.ok("Транзакция с id = " + newPaymentId + " успешно обработана.");
   }
 
 }
