@@ -82,3 +82,6 @@ create database processing
 транзакция валидируется и запишется в БД, а также запишется в топик Kafka.
 
 Каждые 60 секунд в `output-files/transaction.csv` записываются новые транзакции из БД.
+
+![img1](https://github.com/priorgnewb/payments-queue/blob/master/img1.png)
+![img2](https://github.com/priorgnewb/payments-queue/blob/master/img2.png)
